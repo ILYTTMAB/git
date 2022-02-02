@@ -46,7 +46,7 @@ body{
 position:absolute;
  bottom:50px;
  left:40%;
- animation: suspension 1s linear infinite;
+ animation: suspension 2s linear infinite;
 }
 
 @keyframes suspension{
