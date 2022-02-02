@@ -45,13 +45,13 @@ body{
 position:absolute;
  bottom:8%;
  left:24%;
- animation: suspension 2s linear infinite;
+ animation: suspension 1s linear infinite;
 }
 
 @keyframes suspension{
- 100%transform: translateY(-2px)
- 50%transform: translateY(3px)
  0%transform: translateY(-1px)
+ 50%transform: translateY(2px)
+ 100%transform: translateY(-1px)
 }
 
 
