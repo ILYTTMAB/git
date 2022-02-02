@@ -43,7 +43,7 @@ body{
 
 .people{
 position:absolute;
- bottom:8%;
+ bottom:3%;
  left:24%;
  animation: suspension 1s linear infinite;
 }
