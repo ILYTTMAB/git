@@ -18,7 +18,7 @@ body{
 }
 
 .sky{
- height:140px;
+ height:200px;
   width:500%;
   background: url('north2lightsTnp.png');
  display:block;
@@ -38,9 +38,21 @@ body{
  bottom:0%;
  left:0%;
  background-repeat: repeat-x;
- animation: moveRight 6s linear infinite;
+ animation: moveRight 7s linear infinite;
 }
 
+.people{
+position:absolute;
+ bottom:8%;
+ left:24%;
+ animation: suspension 1s linear infinite;
+}
+
+@keyframes suspension{
+ 100%{transform: translateY(-1px)}
+ 50%{transform: translateY(2px)}
+ 0%{transform: translateY(-1px)}
+}
 
 
 @keyframes moveRight{
