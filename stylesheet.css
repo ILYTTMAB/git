@@ -14,7 +14,7 @@ body{
  position: relative;
  box-shadow: 1px 2px 60px rgba(0,0,0,0.4);
  overflow-x: hidden;
- animation: moveRight 60s linear infinite;
+ 
  
 }
 
@@ -44,7 +44,7 @@ body{
 
 .people{
 position:absolute;
- bottom:50px;
+ bottom:5%;
  left:40%;
  animation: suspension 2s linear infinite;
 }
@@ -57,7 +57,7 @@ position:absolute;
 
 
 @keyframes moveRight{
-  100%{transform: translateX(-500px)
+  100%{transform: translateX(-2500px)
 }
 
 
