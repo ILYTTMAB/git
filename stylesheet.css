@@ -9,7 +9,7 @@ body{
   width:70vw;
   
   margin: 5rem auto;
-  background: url('north1np.png');
+  background: url('north2np.png');
  background-size:cover;
  position: relative;
  box-shadow: 1px 2px 60px rgba(0,0,0,0.4);
@@ -18,5 +18,14 @@ body{
 }
 
 .surface{
-
+  height:140px;
+  width:500%;
+  background: url('north2roadnp.png');
+ display:block;
+ position: absolute;
+ bottom:0%;
+ left:0%;
+ background-repeat: repeat-x;
 }
+
+
