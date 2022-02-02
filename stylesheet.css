@@ -26,7 +26,7 @@ body{
  bottom:70%;
  left:0%;
  background-repeat: repeat-x;
- animation: moveRight 2.8s linear infinite;
+ animation: moveRight 36s linear infinite;
 }
 
 .surface{
@@ -38,19 +38,19 @@ body{
  bottom:0%;
  left:0%;
  background-repeat: repeat-x;
- animation: moveRight 2.8s linear infinite;
+ animation: moveRight 36s linear infinite;
 }
 
 .people{
 position:absolute;
- bottom:50%;
- left:50%;
- animation: suspension 1s linear infinite;
+ bottom:8%;
+ left:24%;
+ animation: suspension 2s linear infinite;
 }
 
 @keyframes suspension{
- 100%transform: translateY(-1px)
- 50%transform: translateY(2px)
+ 100%transform: translateY(-2px)
+ 50%transform: translateY(3px)
  0%transform: translateY(-1px)
 }
 
