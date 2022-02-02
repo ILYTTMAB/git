@@ -23,7 +23,7 @@ body{
   background: url('north2lightsTnp.png');
  display:block;
  position: absolute;
- bottom:50%%;
+ bottom:50%;
  left:0%;
  background-repeat: repeat-x;
  animation: moveRight 6s linear infinite;
