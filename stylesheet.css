@@ -24,7 +24,7 @@ body{
   background: url('north2lightsTnp.png');
  display:block;
  position: absolute;
- bottom:70%;
+ bottom:80%;
  left:0%;
  background-repeat: repeat-x;
  animation: moveRight 6s linear infinite;
@@ -50,14 +50,14 @@ position:absolute;
 }
 
 @keyframes suspension{
- 0%transform: translateY(-1px)
- 50%transform: translateY(2px)
- 100%transform: translateY(-1px)
+ 0% transform: translateY(-1px)
+ 50% transform: translateY(2px)
+ 100% transform: translateY(-1px)
 }
 
 
 @keyframes moveRight{
-  100%{transform: translateX(-500px)
+  100% transform: translateX(-500px)
 }
 
 
