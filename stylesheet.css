@@ -18,12 +18,12 @@ body{
 }
 
 .sky{
- height:200px;
+ height:140px;
   width:500%;
   background: url('north2lightsTnp.png');
  display:block;
  position: absolute;
- bottom:50%;
+ bottom:70%;
  left:0%;
  background-repeat: repeat-x;
  animation: moveRight 6s linear infinite;
