@@ -36,7 +36,7 @@ body{
   background: url('north2roadTnp.png');
  display:block;
  position: absolute;
- bottom:50px;
+ bottom:0%;
  left:0%;
  background-repeat: repeat-x;
  animation: moveRight 10s linear infinite;
@@ -44,7 +44,7 @@ body{
 
 .people{
 position:absolute;
- bottom:5%;
+ bottom:50px;
  left:40%;
  animation: suspension 1s linear infinite;
 }
